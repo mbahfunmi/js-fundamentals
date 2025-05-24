@@ -4,10 +4,14 @@ const languages = [
   "JavaScript is amazing"
 ];
 
-let result = "";
+lconst languages = ["C is fun", "Python is cool", "JavaScript is amazing"];
 
-for (let i = 0; i < languages.length; i++) {
-  result += languages[i] + "\n";
+let result = [];
+let i = 0;
+
+while (i < languages.length) {
+  result.push(languages[i]);
+  i++;
 }
 
-console.log(result);
+process.stdout.write(result.join('\n'));
