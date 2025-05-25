@@ -1,4 +1,4 @@
-// 2-arguments.js
+2-arguments.js
 const args = process.argv.slice(2);
 
 if (args.length === 0) {
@@ -8,3 +8,12 @@ if (args.length === 0) {
 } else {
   console.log("Arguments found");
 }
+
+// const count = process.argv[2];
+// if(args.length === 0){
+//   console.log('No Agument found');
+// } else if(args.length ===1){
+//   console.log(Arguments found);
+// } else{
+//   console.log(Arguments found);
+// }
